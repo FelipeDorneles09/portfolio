@@ -37,6 +37,12 @@ body{
     text-decoration: none;
     color: var(--cor-terciaria);
     text-decoration: none;
+    transition: all.5s ease;
+}
+
+.cabecalho-link:hover{
+    color: var(--cor-secundaria);
+    transform: translateY(-4px);
 }
 
 strong{
@@ -102,13 +108,14 @@ strong{
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--montserrat);
+    transition: all.5s ease;
 }
 
 .botoes:hover {
     cursor: pointer;
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
-    width: 400px;
+    width: 55%;
 }
 
 .footer1 {
